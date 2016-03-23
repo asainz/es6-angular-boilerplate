@@ -1,0 +1,16 @@
+$navbar-background-color: tomato;
+$navbar-height: 60px;
+
+.navbar{
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+    height: $navbar-height;
+    
+    > *{
+        flex-grow: 0;
+        line-height: $navbar-height;
+    }
+
+    background: $navbar-background-color;
+}

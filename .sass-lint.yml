@@ -1,0 +1,64 @@
+# Linter Options
+options:
+    # Don't merge default rules
+    merge-default-rules: true
+# Rule Configuration
+rules:
+    space-before-brace: 0
+    url-quotes: 0
+    class-name-format:
+        - 1
+        - convention: hyphenatedbem
+    empty-line-between-blocks: 1
+    hex-notation:
+        - 0
+        -
+          style: uppercase
+    id-name-format:
+        - 1
+        - convention: hyphenatedbem
+    indentation:
+        - 1
+        -
+            size: 4
+    leading-zero:
+        - 0
+        -
+            include: true
+    no-color-keywords: 0
+    no-color-literals:
+        - 1
+        -
+            allow-rgba: true
+    no-css-comments: 0
+    no-debug: 1
+    no-warn: 1
+    no-duplicate-properties: 1 # Add exceptions if necessary
+    no-empty-rulesets: 1
+    no-important: 1
+    no-invalid-hex: 1
+    no-mergeable-selectors: 0
+    no-misspelled-properties: 1
+    no-trailing-zero: 1
+
+    # We should use autoprefixer and exclude any rule not working
+    no-vendor-prefixes: 0
+    #no-vendor-prefixes: 1
+
+    mixin-name-format: 0
+    placeholder-in-extend: 0
+    placeholder-name-format:
+        - 1
+        - convention: hyphenatedbem
+    property-sort-order:
+        - 0
+        -
+            order: smacss
+            ignore-custom-properties: true
+    space-around-operator: 1
+    space-before-bang: 1
+    zero-unit: 1
+    clean-import-paths: 0
+    hex-length: 0
+    nesting-depth: 0
+    final-newline: 0

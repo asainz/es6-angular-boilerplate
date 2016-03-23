@@ -1,0 +1,14 @@
+$sidebar-text-color: #fff;
+$sidebar-background-color: rgba(0, 255, 0, .5);
+
+.sidebar{
+    background: $sidebar-background-color;
+
+    p{
+        color: $sidebar-text-color;
+    }
+
+    li{
+        padding: .5em 1em;
+    }
+}
