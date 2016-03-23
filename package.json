@@ -1,8 +1,8 @@
 {
-  "name": "dataloader",
+  "name": "es6-angular-boilerplate",
   "version": "0.0.1",
-  "description": "",
-  "main": "scripts/app.js",
+  "description": "A simple Angular ES6 boilerplate with babel and webpack. It comes with some components and services as an examples.",
+  "main": "scripts/main.js",
   "dependencies": {
     "angular": "^1.5.1",
     "angular-route": "^1.5.1",
@@ -39,12 +39,21 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/asainz/angular-es6-boilerplate.git"
+  },
+  "bug": {
+    "url": "https://github.com/asainz/angular-es6-boilerplate/issues"
   },
   "author": "Andres Sainz de Aja",
   "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": ""
+  "homepage": "",
+  "keywords": [
+    "angular",
+    "angular",
+    "1.5",
+    "es6",
+    "boilerplate",
+    "babel",
+    "webpack"
+  ]
 }
