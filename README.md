@@ -5,8 +5,7 @@ A simple Angular ES6 boilerplate with babel and webpack. It comes with some comp
 ## Installation
 
 ```
-$ npm install --save angular-es6-boilerplate
-$ npm install
+$ git clone git@github.com:asainz/angular-es6-boilerplate.git .
 ```
 
 If you want to use this boilerplate, please remove the followin sample code:
