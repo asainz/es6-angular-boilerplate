@@ -40,9 +40,6 @@ module.exports = {
     },
     plugins: [
         // new webpack.optimize.UglifyJsPlugin({minimize: true}),
-        new ExtractTextPlugin("styles.css"),
-        new webpack.ProvidePlugin({
-            'window.jQuery': 'jquery'
-        })
+        new ExtractTextPlugin("styles.css")
     ]
 };
