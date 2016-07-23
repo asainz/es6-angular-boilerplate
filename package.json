@@ -39,10 +39,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/asainz/angular-es6-boilerplate.git"
+    "url": "git+https://github.com/asainz/es6-angular-boilerplate.git"
   },
   "bug": {
-    "url": "https://github.com/asainz/angular-es6-boilerplate/issues"
+    "url": "https://github.com/asainz/es6-angular-boilerplate/issues"
   },
   "author": "Andres Sainz de Aja",
   "license": "MIT",
